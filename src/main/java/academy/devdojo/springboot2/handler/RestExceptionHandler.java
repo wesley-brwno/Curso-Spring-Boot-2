@@ -55,6 +55,7 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
         );
     }
 
+    // método não foi sobrescrito
     @Override
     protected ResponseEntity<Object> handleExceptionInternal(
             Exception ex, @Nullable Object body, HttpHeaders headers, HttpStatus status, WebRequest request) {
